@@ -1,7 +1,6 @@
 ---
 layout: ljubljana
 title: Submissions
-permalink: /syntaxfest25/submissions
 ---
 
 # Submissions
