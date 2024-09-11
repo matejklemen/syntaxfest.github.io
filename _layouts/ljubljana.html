@@ -7,6 +7,11 @@
 
 {% seo %}
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <style type="text/css">
+      body {
+        background-color: #f9ffdb;
+      }
+    </style>
     <!--[if lt IE 9]>
     <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
     <![endif]-->
@@ -16,22 +21,24 @@
       <header>
 	
         <h1><a href="{{ "/syntaxfest25" | absolute_url }}">
-	<img src="images/syntaxfest.sofia.2021.png" alt="Syntaxfest Sofia 2021" />
+	<img src="images/syntaxfest.sofia.2021.png" alt="Syntaxfest Ljubljana 2025" />
 	</a></h1>
 	<p>{{ site.description | default: site.github.project_tagline }}</p>
 	<div><a title="Submissions" href="/../syntaxfest.github.io/syntaxfest25/submissions.html" >Submissions</a></div><br>
+  <div><a title="Venue" href="/../syntaxfest.github.io/syntaxfest25/venue.html" >Venue</a></div><br>
   <p>The individual conference sites:</p>
-	<div><a title="Quasy 21" href="https://quasy-2021.webnode.cz/" >Quasy website</a></div><br>
-	<div><a title="Depling 21" href="https://depling.org/depling2021/">Depling 21 website</a></div><br>
-	<div><a title="TLT 2021" href="https://tlt2021.phil.hhu.de/">TLT 2021 website</a></div><br>
-	<div><a title="UDW 21" href="https://universaldependencies.org/udw21/">UDW 21 website</a></div><br>
+	<div><a title="CONF1" href="#" >CONF1 website</a></div><br>
+  <div><a title="CONF2" href="#" >CONF2 website</a></div><br>
+  <div><a title="CONF3" href="#" >CONF3 website</a></div><br>
+  <div><a title="CONF4" href="#" >CONF4 website</a></div><br>
+  <div><a title="CONF5" href="#" >CONF5 website</a></div><br>
 
 
         {% if site.github.is_project_page %}
         <p class="view"><a href="{{ site.github.repository_url }}">View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
         {% endif %}
 	<br>
-        <p class="view"><a href="..">SyntaxFest Homepage</a></p>
+        <p class="view"><a href="../syntaxfest25">SyntaxFest25 Homepage</a></p>
 
         {% if site.show_downloads %}
         <ul>
@@ -51,7 +58,7 @@
         <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
         {% endif %}
         {{/*  <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a> &mdash; Page and illustrations by <a href="https://gerdes.fr">Kim Gerdes</a></small></p>  */}}
-		<img src="images/syntaxfest.sofia.horizontal.png" alt="Syntaxfest Sofia" />
+    <!-- <img src="images/syntaxfest.sofia.horizontal.png" alt="Syntaxfest Sofia" /> -->
 
 	
       </footer>
